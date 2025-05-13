@@ -1,0 +1,39 @@
+
+p {
+color: darksalmon;
+}
+h1{
+    color: saddlebrown;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    color: darkred;
+    text-align: center;
+    font-size: 40px;
+}
+body {
+background-color: beige;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 100px;
+}
+.ropa{
+    height: 80vh;
+    width: 40vw;
+}
+.redes{
+    height: 5vh;
+    width: 3vw;
+}
+.rrhh{
+    height: 5vh;
+    width: 4vw;
+}
+
