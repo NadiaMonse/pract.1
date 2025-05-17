@@ -5,7 +5,7 @@ color: darksalmon;
 h1{
     color: saddlebrown;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 h2{
     color: darkred;
@@ -25,12 +25,13 @@ li{
     border-radius: 100px;
 }
 .ropa{
-    height: 80vh;
-    width: 40vw;
+    height: 50vh;
+    width: 30vw;
 }
 .redes{
     height: 5vh;
     width: 3vw;
+    
 }
 .rrhh{
     height: 5vh;
@@ -39,7 +40,9 @@ li{
 
 .flex{
     display: flex;
-    background-color: chocolate;
     font-size: 15px;
     justify-content: space-around;
+}
+.label{
+    display: flex;
 }
