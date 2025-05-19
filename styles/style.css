@@ -5,26 +5,29 @@ color: darksalmon;
 h1{
     color: saddlebrown;
     text-align: center;
-    font-size: 30px;
+    font-size: 4vw;
     font-family:cursive
+    
 }
 h2{
     color: darkred;
-    font-size: 20px;
+    font-size: 3vw;
 }
 body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     background-color: rgb(229, 236, 163);
 }
 li{
     list-style: none;
     text-decoration: none;
+    width: 100%;
 }
 .logo{
-    height: 30vh;
-    width: 15vw;
+    height: 30%;
+    width: 15%;
     border-radius: 100%;
 }
 
@@ -35,20 +38,21 @@ li{
     
 }
 .rrhh{
-    height: 5vh;
-    width: 4vw;
+    height: 5%;
+    width: 4%;
 }
 
 .flex{
     display: flex;
+    flex-direction: row;
     font-size: 15px;
-    justify-content: space-around;
+    justify-content:space-evenly
     background-color: #d6be6d;
 }
 
 
 .carousel-item{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .fixed{
@@ -62,9 +66,51 @@ li{
 
 .ropa{
     height: 50vh;
-    width: 50 vw;
+    width: 50 %;
     
 }
+.grid{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "top top top"
+    "remera remera short"
+    "buzo buzo jean";
+}
+.item{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    background-color: blueviolet;
+    grid-area: top;
 
+}
+.remera{
+    background-color: aquamarine;
+    grid-area: remera;
+}
+.short{
+    background-color: azure;
+    grid-area: short;
 
+}
+.jean{
+    background-color: beige;
+    grid-area: jean;
+}
+.buzo{
+    background-color: blue;
+    grid-area: buzo;
+}
+@media (max-width: 540px){
+    .flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
