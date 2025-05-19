@@ -5,15 +5,18 @@ color: darksalmon;
 h1{
     color: saddlebrown;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    font-family:cursive
 }
 h2{
     color: darkred;
-    text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 body {
-background-color: beige;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(229, 236, 163);
 }
 li{
     list-style: none;
@@ -22,12 +25,10 @@ li{
 .logo{
     height: 30vh;
     width: 15vw;
-    border-radius: 100px;
+    border-radius: 100%;
 }
-.ropa{
-    height: 50vh;
-    width: 30vw;
-}
+
+
 .redes{
     height: 5vh;
     width: 3vw;
@@ -42,7 +43,28 @@ li{
     display: flex;
     font-size: 15px;
     justify-content: space-around;
+    background-color: #d6be6d;
 }
-.label{
-    display: flex;
+
+
+.carousel-item{
+    height: 100vh;
+    width: 100%;
 }
+.fixed{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    
+}
+
+.ropa{
+    height: 50vh;
+    width: 50 vw;
+    
+}
+
+
+
