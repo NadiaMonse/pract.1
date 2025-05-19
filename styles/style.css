@@ -13,6 +13,10 @@ h2{
     color: darkred;
     font-size: 3vw;
 }
+h3{
+    color: darkolivegreen;
+    font-size: 3vw;
+}
 body {
     margin: 0;
     padding: 0;
@@ -30,11 +34,16 @@ li{
     width: 15%;
     border-radius: 100%;
 }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 
 
 .redes{
-    height: 5vh;
-    width: 3vw;
+    height: 5%;
+    width: 3%;
     
 }
 .rrhh{
@@ -45,7 +54,7 @@ li{
 .flex{
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 100%;
     justify-content:space-evenly
     background-color: #d6be6d;
 }
@@ -113,4 +122,6 @@ li{
         align-items: flex-start;
     }
 }
-
+.mapa{
+    width: 50%;
+}
