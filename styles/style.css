@@ -75,8 +75,13 @@ li{
 
 .ropa{
     height: 50vh;
-    width: 50 %;
+    border-radius: 30%;
     
+}
+.liquidacion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 .grid{
     background-color: crimson;
