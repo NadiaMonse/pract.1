@@ -16,6 +16,7 @@ h2{
 h3{
     color: darkolivegreen;
     font-size: 3vw;
+    
 }
 body {
     margin: 0;
@@ -78,11 +79,7 @@ li{
     border-radius: 30%;
     
 }
-.liquidacion{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
+
 .grid{
     background-color: crimson;
     display: grid;
