@@ -1,6 +1,8 @@
 
 p {
-color: darksalmon;
+    color:black;
+    
+
 }
 h1{
     color: saddlebrown;
@@ -75,9 +77,8 @@ li{
 }
 
 .ropa{
-    height: 50vh;
-    border-radius: 30%;
-    
+    height: 30vh;
+    display: flex;
 }
 
 .grid{
