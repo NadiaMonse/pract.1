@@ -128,27 +128,3 @@ li{
 .mapa{
     width: 50%;
 }
-.vibrate{
-    background-color: aquamarine;
-    height: 20vh;
-    width: 20vw;
-}
-.vibrate:hover{
-    animation: vibrate 0.5s infinite;
-}
-@keyframes vibrate{
-    0% {
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(10px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{transform: translateX(10px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
