@@ -1,0 +1,11 @@
+@include texto;
+@include subtitulo;
+h3{
+    color: darkolivegreen;
+    font-size: 3vw;
+    
+}
+.mapa{
+    width: 50%;
+}
+@include whats;

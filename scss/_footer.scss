@@ -1,0 +1,16 @@
+
+
+.redes{
+    height: 5%;
+    width: 3%;
+}
+.rrhh{
+    height: 5%;
+    width: 4%;
+}
+h2{
+    @include subtitulo;
+}
+@include mobile{
+    flex-direction: column;
+}

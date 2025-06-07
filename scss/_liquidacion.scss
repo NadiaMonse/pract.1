@@ -1,0 +1,47 @@
+
+.grid{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "top top top"
+    "remera remera short"
+    "buzo buzo jean";
+        .top{
+            background-color: blueviolet;
+            grid-area: top;
+        }
+        .remera{
+            background-color: aquamarine;
+            grid-area: remera;
+        }
+        .short{
+            background-color: azure;
+            grid-area: short;
+        }
+        .jean{
+            background-color: beige;
+            grid-area: jean;
+        }
+        .buzo{
+            background-color: blue;
+            grid-area: buzo;
+        }
+    }
+    @include mobile{
+        grid-template-areas:
+        "top top top"
+        "remera remera short"
+        "buzo buzo jean";
+        
+            .indu{
+                display: flex;
+                justify-content: space-between;
+            .ropa{
+                height: 30vh;
+                display: flex;
+            }
+        }
+    }
+    @include whats;

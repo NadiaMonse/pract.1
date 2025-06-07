@@ -1,0 +1,18 @@
+
+@include subtitulo;
+
+.rrhh{
+    height: 5%;
+    width: 4%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@include whats;
+
+@include mobile{
+    flex-direction: column;
+}
