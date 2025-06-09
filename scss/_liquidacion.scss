@@ -1,13 +1,20 @@
-
-.grid{
-    background-color: crimson;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-    "top top top"
-    "remera remera short"
-    "buzo buzo jean";
+main{
+    .grid{
+        background-color: crimson;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "top top top"
+        "remera remera short"
+        "buzo buzo jean";
+        }
+        .item{
+            height: 80%;    
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
         .top{
             background-color: blueviolet;
             grid-area: top;
@@ -28,20 +35,22 @@
             background-color: blue;
             grid-area: buzo;
         }
-    }
-    @include mobile{
-        grid-template-areas:
-        "top top top"
-        "remera remera short"
-        "buzo buzo jean";
+    .indu{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        }
+        .ropa{
+            height: 30vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        @include whats;
+        @include mobile{
+        flex-direction: column;
         
-            .indu{
-                display: flex;
-                justify-content: space-between;
-            .ropa{
-                height: 30vh;
-                display: flex;
-            }
         }
     }
-    @include whats;

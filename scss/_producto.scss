@@ -1,11 +1,12 @@
-.indu{
-    display: flex;
-    justify-content: space-between;
+main{
+    .indu{
+        display: flex;
+        justify-content: space-between;
+    }
     .ropa{
         height: 30vh;
         display: flex;
     }
-}@include whats;
-@include mobile{
-    flex-direction: column;
+    @include whats;
+    @include mobile;
 }

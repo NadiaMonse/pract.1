@@ -1,35 +1,46 @@
-
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     background-color: rgb(229, 236, 163);
-} 
-@mixin texto{
-    color:black;
 }
 
 
-@mixin subtitulo{
-    color: darkred;
-    font-size: 3vw;
-}
-h3{
-    color: darkolivegreen;
-    font-size: 3vw;
-    
-}
-@mixin whats{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 50px;
-    right: 50px;
-}
+
 
 @mixin mobile{
-    @media (max-widht: 540px){
+    @media (max-width :540px){
         @content
     }
+};
+@mixin vibrar{
+    @keyframes vibrate{
+    0% {
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+        }
+    }
+};
+
+@mixin whats{
+    .fixed{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 50px;
+        right: 50px;
+    }
 }
+
+

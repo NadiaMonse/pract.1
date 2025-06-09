@@ -1,18 +1,26 @@
-
-@include subtitulo;
-
-.rrhh{
-    height: 5%;
-    width: 4%;
+main{
+    h2{
+        color: darkred;
+        font-size: 3vw;
+    }
+    .mapa{
+        width: 50%;
+    }
+    .rrhh{
+        height: 5%;
+        width: 4%;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    @include whats;
+    @include mobile;
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
 
-@include whats;
 
-@include mobile{
-    flex-direction: column;
-}
+
+
+
+

@@ -1,0 +1,179 @@
+
+p {
+    color:black;
+    
+}
+h1{
+    color: saddlebrown;
+    text-align: center;
+    font-size: 4vw;
+    font-family:cursive
+    
+}
+h2{
+    color: darkred;
+    font-size: 3vw;
+}
+h3{
+    color: darkolivegreen;
+    font-size: 3vw;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 236, 163);
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+}
+.logo{
+    height: 30%;
+    width: 15%;
+    border-radius: 100%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.redes{
+    height: 5%;
+    width: 3%;
+    
+}
+.rrhh{
+    height: 5%;
+    width: 4%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    justify-content:space-evenly;
+    background-color: #d6be6d;
+}
+
+
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+.fixed{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    
+}
+
+.ropa{
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.indu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 1rem;
+}
+@media(max-width:540px){
+    .grid{
+        display: block;
+    }
+    .ropa,
+    .indu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.grid{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "top top top"
+    "remera remera short"
+    "buzo buzo jean";
+}
+.item{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    background-color: blueviolet;
+    grid-area: top;
+
+}
+.remera{
+    background-color: aquamarine;
+    grid-area: remera;
+}
+.short{
+    background-color: azure;
+    grid-area: short;
+
+}
+.jean{
+    background-color: beige;
+    grid-area: jean;
+}
+.buzo{
+    background-color: blue;
+    grid-area: buzo;
+}
+@media (max-width: 540px){
+    .flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.mapa{
+    width: 50%;
+    border: 3px solid #070000;
+    border-radius: 10px;
+}
+.vibrate{
+    background-color: rgb(212, 68, 11);
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: monospace;
+    
+}
+.vibrate:hover{
+    animation: vibrate 0.5s infinite;
+}
+@keyframes vibrate{
+    0% {
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

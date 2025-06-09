@@ -1,16 +1,18 @@
-
-
-.redes{
-    height: 5%;
-    width: 3%;
-}
-.rrhh{
-    height: 5%;
-    width: 4%;
-}
-h2{
-    @include subtitulo;
-}
-@include mobile{
-    flex-direction: column;
+footer{
+    .rrhh{
+        height: 5%;
+        width: 4%;
+    }
+    .redes{
+        height: 5%;
+        width: 3%;
+    }
+    h2{
+        color: darkred;
+        font-size: 3vw;
+    }
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 }
