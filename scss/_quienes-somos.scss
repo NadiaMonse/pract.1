@@ -5,15 +5,19 @@ main{
     h2{
         color: darkred;
         font-size: 3vw;
+        padding: 50px;
+        margin: 20%;
     }
     h3{
         color: darkolivegreen;
         font-size: 3vw;
+        margin-bottom: 20px;
     }
     .mapa{
         width: 50%;
         border: 3px solid #070000;
         border-radius: 10px;
+        
         }
     @include whats;
     @include mobile{
