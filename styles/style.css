@@ -39,14 +39,17 @@ header .flex {
 footer .rrhh {
   height: 5%;
   width: 4%;
+  
 }
 footer .redes {
   height: 5%;
   width: 3%;
+
 }
 footer h2 {
   color: darkred;
   font-size: 3vw;
+  margin: 20px;
 }
 @media (max-width: 540px) {
   footer {
@@ -99,6 +102,7 @@ main .fixed {
 main h2 {
   color: darkred;
   font-size: 3vw;
+  
 }
 main .mapa {
   width: 50%;
@@ -106,6 +110,7 @@ main .mapa {
 main .rrhh {
   height: 5%;
   width: 4%;
+  
 }
 main .formulario {
   display: flex;
@@ -164,6 +169,8 @@ main .ropa {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  margin: 20px;
+  
 }
 main .fixed {
   position: fixed;
@@ -195,20 +202,40 @@ main .fixed {
 }
 main p {
   color: black;
+  text-align:left;
+  width: 48%;
+  margin: 10px;
 }
 main h2 {
-  color: darkred;
+  color: rgb(141, 13, 113);
   font-size: 3vw;
+  margin-top: 50px;
+  text-align: center;
+
 }
 main h3 {
   color: darkolivegreen;
   font-size: 3vw;
+  margin-top: 20px;
+
 }
 main .mapa {
-  width: 50%;
-  border: 3px solid #070000;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  border: 2px solid #ccc;
   border-radius: 10px;
+  margin-top: 20px;
+  
 }
+main .ubicacion {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 20px;
+}
+
 main .fixed {
   position: fixed;
   width: 50px;
@@ -220,6 +247,10 @@ main .fixed {
   main .mapa {
     height: 200px;
   }
+  main .ubicacion{
+  flex-wrap: wrap;
+  }
 }
+
 
 /*# sourceMappingURL=style.css.map */

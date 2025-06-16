@@ -10,6 +10,8 @@ footer{
     h2{
         color: darkred;
         font-size: 3vw;
+        
+
     }
     @include mobile{
         flex-direction: column;

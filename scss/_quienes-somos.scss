@@ -3,7 +3,7 @@ main{
         color:$variable1;
     }
     h2{
-        color: darkred;
+        color: rgb(194, 17, 70);
         font-size: 3vw;
         padding: 50px;
         margin: 20%;
@@ -14,10 +14,12 @@ main{
         margin-bottom: 20px;
     }
     .mapa{
-        width: 50%;
-        border: 3px solid #070000;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border: 2px solid #ccc;
         border-radius: 10px;
-        
+        margin-bottom: 20px;
         }
     @include whats;
     @include mobile{
